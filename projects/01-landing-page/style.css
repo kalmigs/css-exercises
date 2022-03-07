@@ -158,3 +158,28 @@ one
   color: #6d747d;
   font-size: 18px;
 }
+
+/*********************************************************** 
+two 
+***********************************************************/
+.two {
+  background-color: #e5e7eb;
+}
+
+.two>div>.content {
+  margin: 130px 100px 100px 100px;
+}
+
+.two>div>.content>h1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.two>div>.content>p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  color: #1f2937;
+}
