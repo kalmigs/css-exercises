@@ -26,6 +26,10 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*********************************************************** 
 hero 
 ***********************************************************/
@@ -50,13 +54,11 @@ hero
   color: #f9faf8;
   font-size: 24px;
   font-weight: bold;
-  text-decoration: none;
 }
 
 .hero>.header>.link {
   color: #e5e7eb;
   font-size: 18px;
-  text-decoration: none;
 }
 
 .hero>.hero-content {
@@ -182,4 +184,41 @@ two
   font-weight: bold;
   text-align: right;
   color: #1f2937;
+}
+
+/*********************************************************** 
+three
+***********************************************************/
+
+.three>.content {
+  margin: 100px 0;
+  padding: 50px 100px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.three>.content>.left {
+  flex: 1;
+}
+
+.three>.content>.left>h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.three>.content>.left>p {
+  color: #e5e7eb;
+}
+
+.three>.content>.right>a>button {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 30px;
+  background-color: #3882f6;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
