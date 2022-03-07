@@ -222,3 +222,21 @@ three
   font-weight: bold;
   color: white;
 }
+
+/*********************************************************** 
+footer
+***********************************************************/
+
+.footer {
+  background-color: #1f2937;
+  height: 100px;
+  font-size: 18px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  margin: 5px;
+}
